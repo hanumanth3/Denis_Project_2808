@@ -1,0 +1,48 @@
+{
+	"name": "ksrfeedbackInputDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adl2adf_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "ksr_feedback.csv",
+				"fileSystem": "source"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "feedback_id",
+				"type": "String"
+			},
+			{
+				"name": "student_id",
+				"type": "String"
+			},
+			{
+				"name": "course_id",
+				"type": "String"
+			},
+			{
+				"name": "rating",
+				"type": "String"
+			},
+			{
+				"name": "comments",
+				"type": "String"
+			},
+			{
+				"name": "feedback_date",
+				"type": "String"
+			}
+		]
+	}
+}
