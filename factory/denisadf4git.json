@@ -1,0 +1,15 @@
+{
+	"name": "denisadf4git",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b59f5b5a-9f06-4db3-be7a-f10546d2ae90",
+		"tenantId": "b5e5bd60-ecd0-4622-9003-2ad19f87bd99"
+	}
+}
